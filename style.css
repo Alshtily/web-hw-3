@@ -1,0 +1,107 @@
+* {
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: "Lucida Sans";
+}
+
+#tittle {
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Lucida Sans";
+}
+
+/* header style */
+
+.header-h1 {
+text-align: center;
+}
+
+/* end header style */
+
+/* first body */
+
+.mark {
+  background-color: white;
+  color: black;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 0;
+  width: 90%;
+}
+
+.menu-div {
+  font-family: "Lucida Sans";
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 40%;
+  min-width: 300px;
+  background-color: #34ace0;
+  justify-items: center;
+  border-radius: 5px;
+  color: aliceblue;
+
+  margin: 3%;
+
+  animation: mymove 2s infinite;
+
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.menu-img {
+  height: 150px;
+}
+.menu-h1 {
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: "Lucida Sans";
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #33d9b2;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+/* end body  */
+
+/* hover start */
+
+.menu-div:hover {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation: mymove 0.1s infinite;
+  box-shadow: 5px 10px 18px #888888;
+  
+}
+/* end hover */
+
+/* Shadow Start */
+
+.shadow {
+  box-shadow: 5px 10px 18px #888888;
+}
+
+/* Shadow End */
+
+/* Animation  */
+
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 15px;
+  }
+}
+/* End */
